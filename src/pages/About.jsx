@@ -1,25 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Contact from "../components/Contact";
 
 const About = () => {
   return (
     <div>
       <div className="container">
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <i className="medium material-icons">account_box</i>
+          <h3>Sobre mi</h3>
+        </div>
         <div className="row">
-          <h3>About me</h3>
-          <div class="col s12 m8">
-            <div class="card-panel #42a5f5 blue lighten-1">
-              <span class="black-text">
-                Soy desarrollador Full Stack con conocimientos en JavaScript,
-                HTML, CSS, React, Redux, Java, Python y SQL. Gracias a mi
-                formación y conocimientos, me encuentro en búsqueda de nuevos
-                desafíos donde pueda aportar valor y seguir adquiriendo nuevos
-                conocimientos.
-              </span>
-            </div>
-          </div>
-          <div class="col s12 m8">
-            <div class="card-panel #42a5f5 blue lighten-1">
-              <span class="white-text">
+          <div className="col s12 m8">
+            <div className="card-panel #42a5f5 blue lighten-1">
+              <span className="black-text">
                 Siempre me de definí como un amante de la tecnología, me encanta
                 estar actualizado y en lo posible poder aprender. Tengo muchas
                 ganas de progresar y seguir aumentando mis conocimientos en
@@ -30,6 +24,7 @@ const About = () => {
               </span>
             </div>
           </div>
+          <Contact></Contact>
         </div>
       </div>
     </div>

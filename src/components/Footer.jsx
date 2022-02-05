@@ -5,7 +5,9 @@ const Footer = () => {
     <div>
       <footer className="page-footer blue">
         <div className="footer-copyright center">
-          <div className="container">© 2022 Copyright Text</div>
+          <div className="container">
+            Jonathan Villegas - &copy; {new Date().getFullYear()}
+          </div>
         </div>
       </footer>
     </div>
