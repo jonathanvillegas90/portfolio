@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Contact from "../components/Contact";
 
 const About = () => {
@@ -11,7 +10,7 @@ const About = () => {
           <h3>Sobre mi</h3>
         </div>
         <div className="row">
-          <div className="col s12 m8">
+          <div className="col s12 ">
             <div className="card-panel #42a5f5 blue lighten-1">
               <span className="black-text">
                 Siempre me de definí como un amante de la tecnología, me encanta
