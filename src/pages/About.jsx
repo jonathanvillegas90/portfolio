@@ -12,15 +12,14 @@ const About = () => {
         <div className="row">
           <div className="col s12 ">
             <div className="card-panel #42a5f5 blue lighten-1">
-              <span className="black-text">
+              <h4 className="black-text">
                 Siempre me de definí como un amante de la tecnología, me encanta
                 estar actualizado y en lo posible poder aprender. Tengo muchas
                 ganas de progresar y seguir aumentando mis conocimientos en
                 tecnología, por lo cual aprovecho y no dejo escapar cualquier
-                curso o taller que pueda realizar. Tengo facilidad para el
-                trabajo en equipo, ayudo en lo que se pueda y reconozco el
-                esfuerzo que realizan mis compañeros.
-              </span>
+                curso o taller que pueda realizar. Me gusta trabajar en equipo,
+                me adapto facilmente en las situaciones de emergencia.
+              </h4>
             </div>
           </div>
           <Contact></Contact>
