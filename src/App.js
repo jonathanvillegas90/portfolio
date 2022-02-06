@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Proyects from "./pages/Proyects";
 import Footer from "./components/Footer";
+import Skills from "./pages/Skills";
+import "./App.css";
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/proyects" component={Proyects} />
+          <Route exact path="/skills" component={Skills} />
         </Switch>
         <Footer />
       </Router>

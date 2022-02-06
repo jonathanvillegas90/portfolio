@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <div className="container">
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div style={{ display: "flex", alignItems: "center", color: "white" }}>
           <i className="medium material-icons">account_box</i>
           <h3>Sobre mi</h3>
         </div>

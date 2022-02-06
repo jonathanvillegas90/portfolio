@@ -8,11 +8,11 @@ const Proyect = ({ props }) => {
       <div className="card small">
         <div className="card-image">
           <img src={imagen} />
-          <span className="card-title">{nombre}</span>
+          <span className="card-title blue">{nombre}</span>
         </div>
         <div className="card-content">
           <p>{caracteristica}</p>
-          <p>{tecnologias}</p>
+          <p>Tecnologias utilizadas: {tecnologias}</p>
         </div>
         <div className="card-action">
           <a href={acceso}>{acceso}</a>

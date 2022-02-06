@@ -22,9 +22,6 @@ const Navbar = () => {
             <li>
               <Link to="/proyects">Proyects</Link>
             </li>
-            <li>
-              <Link to="/descargas">Descargas</Link>
-            </li>
           </ul>
         </div>
       </nav>

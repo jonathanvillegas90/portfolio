@@ -4,6 +4,7 @@ import {
   faEnvelope,
   faMobileAlt,
   faIdCard,
+  faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
@@ -15,6 +16,7 @@ const Contact = () => {
           style={{
             display: "flex",
             alignItems: "center",
+            color: "white",
           }}
         >
           <FontAwesomeIcon icon={faIdCard} size="4x" />
@@ -71,6 +73,17 @@ const Contact = () => {
               <FontAwesomeIcon icon={faGithubSquare} size="1x" />
               <span>Repositorio de Git:</span>
               Jonathanvillegas90
+            </a>
+          </div>
+          <br />
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <a
+              href="https://www.canva.com/design/DAEKkoLiXQg/ad7hFsnc4nq2hr4pvoXrfw/view?utm_content=DAEKkoLiXQg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              target="_blank"
+              style={{ color: "black", fontSize: "30px" }}
+            >
+              <FontAwesomeIcon icon={faFileLines} size="1x" />
+              <span>Curriculum Vitae</span>
             </a>
           </div>
         </div>
