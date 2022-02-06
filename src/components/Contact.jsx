@@ -32,6 +32,7 @@ const Contact = () => {
             <a
               href="chony1208@gmail.com"
               target="_blank"
+              rel="noreferrer"
               style={{ color: "black", fontSize: "30px" }}
             >
               <FontAwesomeIcon icon={faEnvelope} size="1x" />
@@ -44,6 +45,7 @@ const Contact = () => {
             <a
               href="https://wa.me/5492664793819"
               target="_blank"
+              rel="noreferrer"
               style={{ color: "black", fontSize: "30px" }}
             >
               <FontAwesomeIcon icon={faMobileAlt} size="1x" />
@@ -56,6 +58,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/jonathanvillega-dev/"
               target="_blank"
+              rel="noreferrer"
               style={{ color: "black", fontSize: "30px" }}
             >
               <FontAwesomeIcon icon={faLinkedin} size="1x" />
@@ -68,6 +71,7 @@ const Contact = () => {
             <a
               href="https://github.com/jonathanvillegas90"
               target="_blank"
+              rel="noreferrer"
               style={{ color: "black", fontSize: "30px" }}
             >
               <FontAwesomeIcon icon={faGithubSquare} size="1x" />
@@ -80,6 +84,7 @@ const Contact = () => {
             <a
               href="https://www.canva.com/design/DAEKkoLiXQg/ad7hFsnc4nq2hr4pvoXrfw/view?utm_content=DAEKkoLiXQg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
               target="_blank"
+              rel="noreferrer"
               style={{ color: "black", fontSize: "30px" }}
             >
               <FontAwesomeIcon icon={faFileLines} size="1x" />

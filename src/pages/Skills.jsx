@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClipboardList, faCode } from "@fortawesome/free-solid-svg-icons";
-import { faNode, faReact } from "@fortawesome/free-brands-svg-icons";
 
 const Skills = () => {
   return (

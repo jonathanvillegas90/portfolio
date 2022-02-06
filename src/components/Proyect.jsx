@@ -7,7 +7,7 @@ const Proyect = ({ props }) => {
     <div className="col s12 m7">
       <div className="card small">
         <div className="card-image">
-          <img src={imagen} />
+          <img src={imagen} alt={nombre} />
           <span className="card-title blue">{nombre}</span>
         </div>
         <div className="card-content">
