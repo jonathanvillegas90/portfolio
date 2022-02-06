@@ -1,7 +1,7 @@
 import React from "react";
 
 const Proyect = ({ props }) => {
-  const { id, nombre, caracteristica, tecnologias, imagen, acceso } = props;
+  const { nombre, caracteristica, tecnologias, imagen, acceso } = props;
 
   return (
     <div className="col s12 m7">
